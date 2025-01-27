@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div><h1>Vitrine de carros</h1></div>
+    </header>
+
+    <section>
+      <div class="wrapper">
+        <div class="container">
+          <img
+            src="https://th.bing.com/th/id/OIP.8vAYdXj6zOq0S9nISxGgkgHaEK?w=299&h=180&c=7&r=0&o=5&pid=1.7"
+            alt="Exemplo de Imagem"
+          />
+          <button
+            onclick="mostrarModal(1, 'https://th.bing.com/th/id/OIP.8vAYdXj6zOq0S9nISxGgkgHaEK?w=299&h=180&c=7&r=0&o=5&pid=1.7')"
+          >
+            Clique aqui
+          </button>
+        </div>
+        <div class="container">
+          <img
+            src="https://th.bing.com/th/id/OIP.yZOl_MAS4-krbgZGdy6rhwHaEw?w=234&h=180&c=7&r=0&o=5&pid=1.7"
+            alt="Exemplo de Imagem"
+          />
+          <button
+            onclick="mostrarModal(2, 'https://th.bing.com/th/id/OIP.yZOl_MAS4-krbgZGdy6rhwHaEw?w=234&h=180&c=7&r=0&o=5&pid=1.7')"
+          >
+            Clique aqui
+          </button>
+        </div>
+        <div class="container">
+          <img
+            src="https://th.bing.com/th/id/OIP.WMMdE6_Zgx3kb46SqyVm7wHaEK?w=318&h=180&c=7&r=0&o=5&pid=1.7"
+            alt="Exemplo de Imagem"
+          />
+          <button
+            onclick="mostrarModal(3, 'https://th.bing.com/th/id/OIP.WMMdE6_Zgx3kb46SqyVm7wHaEK?w=318&h=180&c=7&r=0&o=5&pid=1.7')"
+          >
+            Clique aqui
+          </button>
+        </div>
+        <div class="container">
+          <img
+            src="https://th.bing.com/th/id/OIP.AYHCulrksCjXWHwEJcSMYwHaDj?w=329&h=167&c=7&r=0&o=5&pid=1.7"
+            alt="Exemplo de Imagem"
+          />
+          <button
+            onclick="mostrarModal(3, 'https://th.bing.com/th/id/OIP.AYHCulrksCjXWHwEJcSMYwHaDj?w=329&h=167&c=7&r=0&o=5&pid=1.7')"
+          >
+            Clique aqui
+          </button>
+        </div>
+        <div class="container">
+          <img
+            src="https://th.bing.com/th/id/OIP.vKO3jhz2a2pKo9FgOQGCQQHaE8?w=231&h=180&c=7&r=0&o=5&pid=1.7"
+            alt="Exemplo de Imagem"
+          />
+          <button
+            onclick="mostrarModal(3, 'https://th.bing.com/th/id/OIP.vKO3jhz2a2pKo9FgOQGCQQHaE8?w=231&h=180&c=7&r=0&o=5&pid=1.7')"
+          >
+            Clique aqui
+          </button>
+        </div>
+        <div class="container">
+          <img
+            src="https://th.bing.com/th/id/OIP.1WSFdptBmLa8tdFxkl7CPgHaEK?rs=1&pid=ImgDetMain"
+            alt="Exemplo de Imagem"
+          />
+          <button
+            onclick="mostrarModal(3, 'https://th.bing.com/th/id/OIP.1WSFdptBmLa8tdFxkl7CPgHaEK?rs=1&pid=ImgDetMain')"
+          >
+            Clique aqui
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modals -->
+    <div class="modal" id="modal1">
+      <div class="modal-content">
+        <button class="close-btn" onclick="fecharModal()">×</button>
+        <img id="modalImage1" src="" alt="Imagem do Modal" />
+      </div>
+    </div>
+    <div class="modal" id="modal2">
+      <div class="modal-content">
+        <button class="close-btn" onclick="fecharModal('modal2')">×</button>
+        <img id="modalImage2" src="" alt="Imagem do Modal" />
+      </div>
+    </div>
+    <div class="modal" id="modal3">
+      <div class="modal-content">
+        <button class="close-btn" onclick="fecharModal('modal3')">×</button>
+        <img id="modalImage3" src="" alt="Imagem do Modal" />
+      </div>
+    </div>
+    <div class="modal" id="modal4">
+      <div class="modal-content">
+        <button class="close-btn" onclick="fecharModal('modal4')">×</button>
+        <img id="modalImage4" src="" alt="Imagem do Modal" />
+      </div>
+    </div>
+    <div class="modal" id="modal5">
+      <div class="modal-content">
+        <button class="close-btn" onclick="fecharModal('modal5')">×</button>
+        <img id="modalImage5" src="" alt="Imagem do Modal" />
+      </div>
+    </div>
+    <div class="modal" id="modal6">
+      <div class="modal-content">
+        <button class="close-btn" onclick="fecharModal('modal6')">×</button>
+        <img id="modalImage6" src="" alt="Imagem do Modal" />
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <p>© 2025 Vitrine de Carros. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
